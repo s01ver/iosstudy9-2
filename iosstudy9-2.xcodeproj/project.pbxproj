@@ -31,6 +31,9 @@
 		18F085332B3A8422003D37AF /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F085312B3A8422003D37AF /* PostCollectionViewCell.swift */; };
 		18F085342B3A8422003D37AF /* PostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F085322B3A8422003D37AF /* PostCollectionViewCell.xib */; };
 		18F085382B3AAB82003D37AF /* ignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F085372B3AAB82003D37AF /* ignore.swift */; };
+		18F0853B2B3AACC6003D37AF /* FeedAPIInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0853A2B3AACC6003D37AF /* FeedAPIInput.swift */; };
+		18F0853D2B3AAD1A003D37AF /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0853C2B3AAD1A003D37AF /* FeedModel.swift */; };
+		18F0853F2B3AAD61003D37AF /* FeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0853E2B3AAD61003D37AF /* FeedDataManager.swift */; };
 		A0851BBBDBE9D9ED4DB51734 /* Pods_iosstudy9_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB1A53F65D138C8B704B817 /* Pods_iosstudy9_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		18F085312B3A8422003D37AF /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 		18F085322B3A8422003D37AF /* PostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCollectionViewCell.xib; sourceTree = "<group>"; };
 		18F085372B3AAB82003D37AF /* ignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ignore.swift; sourceTree = "<group>"; };
+		18F0853A2B3AACC6003D37AF /* FeedAPIInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAPIInput.swift; sourceTree = "<group>"; };
+		18F0853C2B3AAD1A003D37AF /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		18F0853E2B3AAD61003D37AF /* FeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataManager.swift; sourceTree = "<group>"; };
 		33BE344F61198D3DF67E40EC /* Pods-iosstudy9-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosstudy9-2.release.xcconfig"; path = "Target Support Files/Pods-iosstudy9-2/Pods-iosstudy9-2.release.xcconfig"; sourceTree = "<group>"; };
 		8BB1A53F65D138C8B704B817 /* Pods_iosstudy9_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosstudy9_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA15ACD37A5DA845B102C14 /* Pods-iosstudy9-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosstudy9-2.debug.xcconfig"; path = "Target Support Files/Pods-iosstudy9-2/Pods-iosstudy9-2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				18F085102B3A7DEF003D37AF /* HomeViewController.swift */,
+				18F085392B3AACAF003D37AF /* Feed */,
 				18F085302B3A83F7003D37AF /* Post */,
 				18F085122B3A7DF5003D37AF /* Profile */,
 				18F085152B3A7E33003D37AF /* Cell */,
@@ -158,6 +165,16 @@
 				18F085322B3A8422003D37AF /* PostCollectionViewCell.xib */,
 			);
 			path = Post;
+			sourceTree = "<group>";
+		};
+		18F085392B3AACAF003D37AF /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				18F0853A2B3AACC6003D37AF /* FeedAPIInput.swift */,
+				18F0853C2B3AAD1A003D37AF /* FeedModel.swift */,
+				18F0853E2B3AAD61003D37AF /* FeedDataManager.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 		C7BD4C198D9AD94AB9727F3F /* Frameworks */ = {
@@ -298,6 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F0851D2B3A7E89003D37AF /* UIViewController+Extension.swift in Sources */,
+				18F0853D2B3AAD1A003D37AF /* FeedModel.swift in Sources */,
+				18F0853B2B3AACC6003D37AF /* FeedAPIInput.swift in Sources */,
+				18F0853F2B3AAD61003D37AF /* FeedDataManager.swift in Sources */,
 				18F085172B3A7E68003D37AF /* LoginViewController.swift in Sources */,
 				18F084A42B15F353003D37AF /* AppDelegate.swift in Sources */,
 				18F085222B3A7EB3003D37AF /* ProfileCollectionViewCell.swift in Sources */,
